@@ -44,8 +44,58 @@ void Walker::stepNine(){
 }
 
 //------------------------------------------------------------------
+void Walker::stepRight(){
+    
+    float r = ofRandom(1);
+    
+    if (r < 0.4) {
+        x++;
+    } else if (r < 0.6) {
+        x--;
+    } else if (r < 0.8) {
+        y++;
+    } else {
+        y--;
+    }
+    
+}
+
+//------------------------------------------------------------------
+void Walker::stepToMouse(ofPoint _mouse){
+    
+    float r = ofRandom(1);
+    
+    if (r < 0.5) {
+        // check it against the mouseX/Y
+        if (x < _mouse.x) {
+            x++;
+        } else {
+            x--;
+        }
+        
+        if (y < _mouse.y) {
+            y++;
+        } else {
+            y--;
+        }
+    }
+    else if (r < 0.6) {
+        x++;
+    }
+    else if (r < 0.7) {
+        x--;
+    }
+    else if (r < 0.8){
+        y++;
+    } else {
+        y--;
+    }
+    
+}
+
+//------------------------------------------------------------------
 void Walker::draw(){
     ofFill();
-    ofSetColor(255, 0, 255, 25);
+    ofSetColor(255, 0, 255);
     ofCircle(x, y, 2);
 }

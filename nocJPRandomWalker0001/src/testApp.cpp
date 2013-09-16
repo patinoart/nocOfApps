@@ -8,7 +8,7 @@ void testApp::setup(){
     ofSetFrameRate(72);
     ofSetCircleResolution(100);
     ofSetBackgroundAuto(false);
-    ofEnableAlphaBlending();
+    //ofEnableAlphaBlending();
     
     w.setup();
 
@@ -17,9 +17,16 @@ void testApp::setup(){
 //--------------------------------------------------------------
 void testApp::update(){
     
+    ofPoint mouse;
+    mouse.set(mouseX, mouseY);
+    
     //w.stepFour();
     
-    w.stepNine();
+    //w.stepNine();
+    
+    //w.stepRight();
+    
+    w.stepToMouse(mouse);
 
 }
 
