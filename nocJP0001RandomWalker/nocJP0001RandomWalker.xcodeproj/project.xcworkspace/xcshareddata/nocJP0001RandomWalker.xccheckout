@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E0D81203-F028-4092-9342-8EE042704227</string>
+	<key>IDESourceControlProjectName</key>
+	<string>nocJP0001RandomWalker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BD229E94-9B86-4A01-B673-533618257E92</key>
+		<string>https://github.com/patinoart/nocOfApps</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>nocJP0001RandomWalker/nocJP0001RandomWalker.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BD229E94-9B86-4A01-B673-533618257E92</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/patinoart/nocOfApps</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BD229E94-9B86-4A01-B673-533618257E92</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BD229E94-9B86-4A01-B673-533618257E92</string>
+			<key>IDESourceControlWCCName</key>
+			<string>nocOfApps</string>
+		</dict>
+	</array>
+</dict>
+</plist>
