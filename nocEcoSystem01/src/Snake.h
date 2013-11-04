@@ -10,7 +10,7 @@
 
 #include "ofMain.h"
 
-#define NUMSEGMENTS 50
+#define NUMSEGMENTS 10
 
 class Snake {
 public:
